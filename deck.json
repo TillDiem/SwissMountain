@@ -51,13 +51,35 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "_Aletschhorn.png",
+        "_Alphubel.png",
+        "_Brienzer_Rothorn.png",
+        "_Dent_Blanche.png",
+        "_Dom.png",
+        "_Dufourspitze.png",
+        "_Eiger.png",
+        "_Finsteraarhorn.png",
+        "_Grand_Combin.png",
+        "_Grosser_Mythen.png",
+        "_Jungfrau.png",
+        "_Liskamm.png",
+        "_Matterhorn.png",
+        "_Mönch.png",
+        "_Pilatus.png",
+        "_Piz_Bernina.png",
+        "_Piz_Palü.png",
+        "_Schreckhorn.png",
+        "_Säntis.png",
+        "_Weisshorn.png",
+        "_schweiz.jpg"
+    ],
     "name": "Schweizer Berge",
     "note_models": [
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n.imageWrapper {\n  position: relative;\n width:100%;\n}\n.imageOverlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n}",
             "flds": [
                 {
                     "font": "Liberation Sans",
@@ -185,7 +207,7 @@
                     "qfmt": "Welcher Berg ist das ? \n<br>\n{{Bild}}"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Gebirge}}\n<br>\n{{Karte}}",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Gebirge}}\n<br>\n<div class=imageWrapper>\n<img class=imageOverlay src=_schweiz.jpg>\n{{Karte}}\n</div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -223,7 +245,7 @@
             "fields": [
                 "Aletschhorn",
                 "4193",
-                "",
+                "<img class=imageOverlay src=_Aletschhorn.png>",
                 "",
                 "Aletschgebiet",
                 "Wallis",
@@ -274,7 +296,7 @@
             "fields": [
                 "Alphubel",
                 "4206",
-                "",
+                "<img class=imageOverlay src=_Alphubel.png>",
                 "",
                 "Mischabel-Gruppe",
                 "Wallis",
@@ -614,7 +636,7 @@
             "fields": [
                 "Brienzer Rothorn",
                 "2350",
-                "",
+                "<img class=imageOverlay src=_Brienzer_Rothorn.png>",
                 "",
                 "",
                 "Emmentaler Alpen",
@@ -937,7 +959,7 @@
             "fields": [
                 "Dent Blanche",
                 "4357",
-                "",
+                "<img class=imageOverlay src=_Dent_Blanche.png>",
                 "",
                 "",
                 "Walliser Alpen",
@@ -1039,7 +1061,7 @@
             "fields": [
                 "Dom",
                 "4545",
-                "",
+                "<img class=imageOverlay src=_Dom.png>",
                 "",
                 "Mischabel-Gruppe",
                 "Walliser Alpen",
@@ -1073,7 +1095,7 @@
             "fields": [
                 "Dufourspitze",
                 "4634",
-                "",
+                "<img class=imageOverlay src=_Dufourspitze.png>",
                 "",
                 "Monte Rosa",
                 "Wallis",
@@ -1090,7 +1112,7 @@
             "fields": [
                 "Eiger",
                 "3967",
-                "",
+                "<img class=imageOverlay src=_Eiger.png>",
                 "",
                 "",
                 "Berner Alpen",
@@ -1226,7 +1248,7 @@
             "fields": [
                 "Finsteraarhorn",
                 "4274",
-                "",
+                "<img class=imageOverlay src=_Finsteraarhorn.png>",
                 "",
                 "",
                 "Berner Alpen",
@@ -1396,7 +1418,7 @@
             "fields": [
                 "Grand Combin",
                 "4314",
-                "",
+                "<img class=imageOverlay src=_Grand_Combin.png>",
                 "",
                 "",
                 "Walliser Alpen",
@@ -1753,7 +1775,7 @@
             "fields": [
                 "Jungfrau",
                 "4158",
-                "",
+                "<img class=imageOverlay src=_Jungfrau.png>",
                 "",
                 "Jungfrau",
                 "Berner Alpen",
@@ -1923,7 +1945,7 @@
             "fields": [
                 "Liskamm",
                 "4527",
-                "",
+                "<img class=imageOverlay src=_Liskamm.png>",
                 "",
                 "Walliser Alpen",
                 "Wallis/Italien",
@@ -1974,7 +1996,7 @@
             "fields": [
                 "Matterhorn",
                 "4478",
-                "",
+                "<img class=\"imageOverlay\" src=\"_Matterhorn.png\">",
                 "",
                 "Walliser Alpen",
                 "Wallis/Italien",
@@ -2008,7 +2030,7 @@
             "fields": [
                 "Mönch",
                 "4107",
-                "",
+                "<img class=imageOverlay src=_Mönch.png>",
                 "",
                 "Jungfraugebiet",
                 "Berner Alpen",
@@ -2212,7 +2234,7 @@
             "fields": [
                 "Grosser Mythen",
                 "1898",
-                "",
+                "<img class=imageOverlay src=_Grosser_Mythen.png>",
                 "",
                 "",
                 "Zentralschweiz",
@@ -2552,7 +2574,7 @@
             "fields": [
                 "Pilatus",
                 "2128",
-                "",
+                "<img class=imageOverlay src=_Pilatus.png>",
                 "",
                 "Pilatus",
                 "Emmentaler Alpen",
@@ -2620,7 +2642,7 @@
             "fields": [
                 "Piz Bernina",
                 "4049",
-                "",
+                "<img class=imageOverlay src=_Piz_Bernina.png>",
                 "",
                 "Berninagruppe",
                 "Graubünden",
@@ -2892,7 +2914,7 @@
             "fields": [
                 "Piz Palü",
                 "3900",
-                "",
+                "<img class=imageOverlay src=_Piz_Palü.png>",
                 "",
                 "Berninagruppe",
                 "Graubünden",
@@ -3402,7 +3424,7 @@
             "fields": [
                 "Säntis",
                 "2502",
-                "",
+                "<img class=imageOverlay src=_Säntis.png>",
                 "",
                 "Alpstein",
                 "Appenzeller Alpen",
@@ -3589,7 +3611,7 @@
             "fields": [
                 "Schreckhorn",
                 "4078",
-                "",
+                "<img class=imageOverlay src=_Schreckhorn.png>",
                 "",
                 "",
                 "Berner Alpen",
@@ -4082,7 +4104,7 @@
             "fields": [
                 "Weisshorn",
                 "4505",
-                "",
+                "<img class=imageOverlay src=_Weisshorn.png>",
                 "",
                 "",
                 "Walliser Alpen",
