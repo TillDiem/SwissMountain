@@ -36,12 +36,13 @@ getpxheight(){
 rm importer
 while read -r line; do
 	mountain_name="$(echo "$line" | cut -f1 )"
+	mountain_name_adjusted="$(echo "${mountain_name// /_}" | sed 's/\//_/g')"
 	hg="$( echo "$line" | cut -f2 )"
 	bgg="$( echo "$line" | cut -f3 )"
 	printf 'Creating pin for: %s\n' "$mountain_name"
 	convert -size 10230x6507 canvas:transparent pin.png -geometry +$(getpxwidth $bgg)+$(getpxheight $hg) -composite temp.png
-	convert temp.png -resize 3500x pins/_${mountain_name}.png
+	convert temp.png -resize 3500x pins/_"${mountain_name_adjusted}.png"
 	rm temp.png
-	printf "%s\t<img class=imageOverlay src=_%s.png>\n" "$(echo "$mountain_name" | sed 's/_/ /g')" "$mountain_name" >> importer
+	printf "%s\t<img class=imageOverlay src=_%s.png>\n" "$mountain_name" "$mountain_name_adjusted" >> importer
 done<coord_file
 echo DONE
