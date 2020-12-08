@@ -1,0 +1,13 @@
+#!/bin/bash
+#A script that gets coords for mountain names
+KEY="$(pass show Misc/GoogleMapsAPIKey)"
+rm coord_file
+while read -r line; do
+	name="$(echo "$line" | cut -f1 )"
+	name_adjusted="$(echo "$name" | sed 's/ /+/g')"
+	curl -s "https://maps.googleapis.com/maps/api/geocode/xml?address=${name_adjusted}+Berg+Schweiz&key=$KEY" > temp.xml
+	lat="$(sed -n '/lat/p' temp.xml | head -n1 | sed 's/^.*<lat>//; s/<\/lat>//' )"
+	lng="$(sed -n '/lng/p' temp.xml | head -n1 | sed 's/^.*<lng>//; s/<\/lng>//')"
+	printf '%s\t%s\t%s\n' "$name" "$lat" "$lng" | tee -a coord_file
+	rm temp.xml
+done<bergliste
