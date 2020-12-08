@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "4496b9fc-397f-11eb-b591-50eb7149c36b",
-    "deck_config_uuid": "4496cda2-397f-11eb-b591-50eb7149c36b",
+    "crowdanki_uuid": "e979c53c-3983-11eb-9622-50eb7149c36b",
+    "deck_config_uuid": "e979dd2e-3983-11eb-9622-50eb7149c36b",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "4496cda2-397f-11eb-b591-50eb7149c36b",
+            "crowdanki_uuid": "e979dd2e-3983-11eb-9622-50eb7149c36b",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -51,27 +51,12 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [
-        "2003-Zermatt-Weisshorn.jpg",
-        "3818_-_Riffelberg_-_Matterhorn_viewed_from_Gornergratbahn.JPG",
-        "Castor_Ostpanorama.jpg",
-        "Dom.png",
-        "DomFromN.jpg",
-        "Dufour.png",
-        "Dufourspitze02.jpg",
-        "Finsteraarhorn.jpg",
-        "Grandcombin.jpg",
-        "Liskamm.png",
-        "Monte_Rosa_summit.jpg",
-        "Saentis_Gipfel_mit_Alp.jpg",
-        "Wallis_Alphubel_mg-k.jpg",
-        "Zinalrothorn.jpg"
-    ],
+    "media_files": [],
     "name": "Schweizer Berge",
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "crowdanki_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
@@ -118,6 +103,30 @@
                     "font": "Liberation Sans",
                     "name": "Gebiet",
                     "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Gipfeltyp",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Koordinaten NS",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "name": "Koordinaten OW",
+                    "ord": 8,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
@@ -195,309 +204,35 @@
         {
             "__type__": "Note",
             "fields": [
-                "Dufourspitze",
-                "4634 m&nbsp;",
-                "<img src=\"Dufour.png\">",
-                "<img src=\"Dufourspitze02.jpg\"><img src=\"Monte_Rosa_summit.jpg\">",
-                "Monte-Rosa, Walliser Alpen",
-                ""
-            ],
-            "guid": "k^T`)bXy$_",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Dom",
-                "4545 m",
-                "<div><img src=\"Dom.png\"><br></div>",
-                "<img src=\"DomFromN.jpg\">",
-                "Mischabelgruppe, Walliser Alpen",
-                ""
-            ],
-            "guid": "bzUnV87mY)",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Liskamm",
-                "4533 m",
-                "<img src=\"Liskamm.png\">",
-                "<img src=\"Castor_Ostpanorama.jpg\">",
-                "Walliser Alpen",
-                ""
-            ],
-            "guid": "d)7cC:MeGo",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Weisshorn",
-                "4505 m",
-                "",
-                "<img src=\"2003-Zermatt-Weisshorn.jpg\">",
-                "Walliser Alpen",
-                ""
-            ],
-            "guid": "w9{$N?0n7H",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Matterhorn",
-                "4478 m",
-                "",
-                "<img src=\"3818_-_Riffelberg_-_Matterhorn_viewed_from_Gornergratbahn.JPG\">",
-                "Walliser Alpen<br>",
-                ""
-            ],
-            "guid": "A3cJ0-4+hc",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Dent Blanche",
-                "4357 m",
+                "Albis",
+                "916",
                 "",
                 "",
-                "Walliser Alpen",
-                ""
-            ],
-            "guid": "qwdMF&CYdp",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Grand Combin",
-                "4314 m",
                 "",
-                "<img src=\"Grandcombin.jpg\">",
-                "Walliser Alpen",
-                ""
-            ],
-            "guid": "h.-VgmDqHn",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Finsteraarhorn",
-                "4274 m",
+                "Mittelland",
+                "Hauptgipfel",
                 "",
-                "<img src=\"Finsteraarhorn.jpg\">",
-                "Berner Alpen",
                 ""
             ],
-            "guid": "mT^pRHgL_S",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Zinalrothorn",
-                "4221 m&nbsp;",
-                "",
-                "<img src=\"Zinalrothorn.jpg\">",
-                "Walliser Alpen",
-                ""
-            ],
-            "guid": "kfy)M})EK0",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Alphubel",
-                "4206 m",
-                "",
-                "<img src=\"Wallis_Alphubel_mg-k.jpg\">",
-                "Allalingruppe",
-                ""
-            ],
-            "guid": "Nq$%8YM@pA",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "HC`2{2k09H",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
                 "Aletschhorn",
-                "4193 m",
+                "4193",
                 "",
                 "",
                 "Aletschgebiet",
+                "Wallis",
+                "Hauptgipfel",
+                "",
                 ""
             ],
-            "guid": "mlSTplQ}/H",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Jungfrau",
-                "4158 m",
-                "",
-                "",
-                "Berner Alpen",
-                ""
-            ],
-            "guid": "cIGLi.RtTn",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Mönch",
-                "4107 m",
-                "",
-                "",
-                "Berner Alpen",
-                ""
-            ],
-            "guid": "B7_5}G*RI:",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Schreckhorn",
-                "4078 m",
-                "",
-                "",
-                "Berner Alpen",
-                ""
-            ],
-            "guid": "kF.Tx5-%o5",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Piz Bernina",
-                "4049 m",
-                "",
-                "",
-                "Berninagruppe",
-                ""
-            ],
-            "guid": "n+K{eew~3y",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Eiger",
-                "3967 m",
-                "",
-                "",
-                "Berner Alpen",
-                ""
-            ],
-            "guid": "Eo6eZ*Xq`/",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Piz Palü",
-                "3900 m&nbsp;",
-                "",
-                "",
-                "Berninagruppe",
-                ""
-            ],
-            "guid": "x0c6h0CcUC",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Säntis",
-                "2502 m",
-                "",
-                "<img src=\"Saentis_Gipfel_mit_Alp.jpg\">",
-                "Appenzeller Alpen",
-                ""
-            ],
-            "guid": "d<<11s%5_y",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Brienzer Rothorn",
-                "2350 m",
-                "",
-                "",
-                "Emmentaler Alpen",
-                ""
-            ],
-            "guid": "F^s@6@=LJA",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Pilatus",
-                "2128 m",
-                "",
-                "",
-                "Emmentaler Alpen",
-                ""
-            ],
-            "guid": "QS7NMTPEj^",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Grosser Mythen",
-                "1898 m",
-                "",
-                "",
-                "Schwyzer Alpen",
-                ""
-            ],
-            "guid": "D)R-dXE?|1",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Albis",
-                "916",
-                "",
-                "",
-                "",
-                "Mittelland"
-            ],
-            "guid": "we2@Vcp4u-",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "PcyE`*HP13",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -508,10 +243,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "vN(Z59q%|0",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "MQf72_#b!.",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -522,10 +260,30 @@
                 "",
                 "",
                 "Splügener Kalkberge",
-                "Adula-Alpen"
+                "Adula-Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "F~1b6F8%q|",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "J(rj|vRE=6",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alphubel",
+                "4206",
+                "",
+                "",
+                "Mischabel-Gruppe",
+                "Wallis",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "dnzP$osu#l",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -536,10 +294,13 @@
                 "",
                 "",
                 "Balmhorngruppe",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "D~{b[;dpyx",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "dsBR?_u1s1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -550,10 +311,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "fvBykQ8nGK",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "yf*A>VJLqy",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -564,10 +328,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "xv^3(gM#*m",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ht<G)^sSST",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -578,10 +345,13 @@
                 "",
                 "",
                 "Alvierkette",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "B-a_1T7HRt",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "tIP8:06NZJ",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -592,10 +362,13 @@
                 "",
                 "",
                 "Schwyzer Alpen",
-                "Schwyz"
+                "Schwyz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "d9y(%e+Kf$",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "wl^[tVAC(R",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -606,10 +379,13 @@
                 "",
                 "",
                 "Diederberge",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "GV;D/sswIO",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "nl0A(;KCo8",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -620,10 +396,13 @@
                 "",
                 "",
                 "Zürcher Oberland",
-                "Mittelland"
+                "Mittelland",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "l^B_keO74t",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "q,yK$B|9&E",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -634,10 +413,13 @@
                 "",
                 "",
                 "Gotthardmassiv",
-                "Graubünden/Uri"
+                "Graubünden/Uri",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "wp;++$#n7A",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "P}(^x4:V{n",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -648,10 +430,13 @@
                 "",
                 "",
                 "Balmhorngruppe",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "j%c[KT1qp{",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "vK2})]=Q+f",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -662,10 +447,13 @@
                 "",
                 "",
                 "",
-                "Wallis"
+                "Wallis",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "hlQ1]/UwhV",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "M1O#9{i|?W",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -676,10 +464,13 @@
                 "",
                 "",
                 "Berninagruppe",
-                "Engadin"
+                "Engadin",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "zO#%{e.6TR",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "nPY7,h8*:X",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -690,10 +481,13 @@
                 "",
                 "",
                 "Aletsch",
-                "Wallis"
+                "Wallis",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "mLpxTEeA[J",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "cj2u5wypru",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -704,10 +498,13 @@
                 "",
                 "",
                 "Brigelserhörner",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "cNT:gC4z26",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "o<k:3YPAFe",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -718,10 +515,13 @@
                 "",
                 "",
                 "Blüemlisalp(gruppe)",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "F<RK`YAtDY",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "L!{IJ:hP^D",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -732,10 +532,13 @@
                 "",
                 "",
                 "Blüemlisalpgruppe",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "MilgEMcNrL",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "gIXXgIxA4]",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -746,10 +549,13 @@
                 "",
                 "",
                 "",
-                "Mittelland"
+                "Mittelland",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "byv.rPmgq)",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "cSoL/3}AW{",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -760,10 +566,13 @@
                 "",
                 "",
                 "Silberen-Glärnisch",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "fR9/b8NfGr",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "tVw1r67{-s",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -774,10 +583,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "ezjE*^Z}rK",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "l@t7AD=aMk",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -788,10 +600,30 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "F3T=|mEuMo",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "PEzv5(yE^$",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Brienzer Rothorn",
+                "2350",
+                "",
+                "",
+                "",
+                "Emmentaler Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "Igs6(4M8gX",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -802,10 +634,13 @@
                 "",
                 "",
                 "Urner Alpen",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "yn8ob~w0}z",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "L(,bHU(?,K",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -816,10 +651,13 @@
                 "",
                 "",
                 "Churfirsten",
-                "Walensee"
+                "Walensee",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "F;::1(Q(-X",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "lwJD#8mbA@",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -830,10 +668,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "y&+sr8G~RW",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "uXo$mUfY[m",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -844,10 +685,13 @@
                 "",
                 "",
                 "",
-                "Adula-Alpen"
+                "Adula-Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "g%*m:HX}/`",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "AgM{$YqukO",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -858,10 +702,13 @@
                 "",
                 "",
                 "Güggisgrat",
-                "Emmentaler Alpen"
+                "Emmentaler Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "dx@TS;+$|@",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "xO3bU6b%7w",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -872,10 +719,13 @@
                 "",
                 "",
                 "Calanda",
-                "Bündner Rheintal"
+                "Bündner Rheintal",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "w#GhDCVE>4",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "t9!HPDamfp",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -886,10 +736,13 @@
                 "",
                 "",
                 "",
-                "Tessin"
+                "Tessin",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "pgyfXmSZ7(",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Kb{8)ly&Vg",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -900,10 +753,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "J`WMpDn%|x",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "t[RDq#q%3a",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -914,10 +770,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "P~$dEiDz/1",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ykTQjAD5l:",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -928,10 +787,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "nM;5czo>>%",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bG9*wO.D,1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -942,10 +804,13 @@
                 "",
                 "",
                 "Gemmi",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "ytG5OciC:P",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "shI+TTn9`o",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -956,10 +821,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "t*fyI+>Oo8",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "myddFWK906",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -970,10 +838,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Mg[K4@Z)LK",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "NgfqJ/lCg}",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -984,10 +855,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "DwOJDBX0@8",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Aut~xeYe`^",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -998,10 +872,13 @@
                 "",
                 "",
                 "",
-                "Simmental"
+                "Simmental",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "MRjlHIeANK",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Mo@K25U$|s",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1012,10 +889,13 @@
                 "",
                 "",
                 "",
-                "Klausenpass"
+                "Klausenpass",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "M|r2FB@Ny,",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Bk,x==tepK",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1026,10 +906,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Q6JqWZ2d.?",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "hm|u:LD+&b",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1040,10 +923,30 @@
                 "",
                 "",
                 "Leeshörner",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "Oov`actk>X",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "q`+Ay:eDch",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dent Blanche",
+                "4357",
+                "",
+                "",
+                "",
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "fkAMA&?hVw",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1054,10 +957,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "P>!p[&^k)5",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "kP(CS!0>;i",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1068,10 +974,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "I7=EL7O5XL",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "p{]NKI3^?V",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1082,10 +991,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "L5+.pSZPm?",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "O_(,}L]TIA",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1096,10 +1008,13 @@
                 "",
                 "",
                 "Mischabel-Gruppe",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "s$CP-mXS5`",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "r#9)_Zm~PZ",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1110,10 +1025,30 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "EVgrFxyKV1",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "r@0Q!`j&Rw",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dom",
+                "4545",
+                "",
+                "",
+                "Mischabel-Gruppe",
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "lke%~GwIF/",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1124,10 +1059,47 @@
                 "",
                 "",
                 "Aletsch",
-                "Wallis"
+                "Wallis",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "v#{HtkQQxw",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "CgO@CC5]F-",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dufourspitze",
+                "4634",
+                "",
+                "",
+                "Monte Rosa",
+                "Wallis",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "(lJX9oNdj",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Eiger",
+                "3967",
+                "",
+                "",
+                "",
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "X58{?GS:4",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1138,10 +1110,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "G>Zfgb{dNu",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "i~]Q+2@%>M",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1152,10 +1127,13 @@
                 "",
                 "",
                 "Schwyzer Alpen",
-                "Schwyz"
+                "Schwyz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "w/j]GSF~<8",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "F2laY)RkGZ",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1166,10 +1144,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "K]K9#@VC;s",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "xy<P$?Jst&",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1180,10 +1161,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Voralpen"
+                "Voralpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "G%v`FAz`E5",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "PWmbH<uAHW",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1194,10 +1178,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "kiBQ]b&>LG",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rVY`=o@qHQ",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1208,10 +1195,13 @@
                 "",
                 "",
                 "Calanda",
-                "Bündner Rheintal"
+                "Bündner Rheintal",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "Gz9oPo5P6m",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "}s}SFI-34",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1222,10 +1212,30 @@
                 "",
                 "",
                 "Sardona Tektonik-Arena",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "C$8[uHrMce",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "CAhTo94:}Q",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Finsteraarhorn",
+                "4274",
+                "",
+                "",
+                "",
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "yfCO7rtxI%",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1235,11 +1245,14 @@
                 "2787",
                 "",
                 "",
+                "",
                 "Berner Alpen",
-                "Nebengipfel"
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "pfN[=4cXKy",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "z{kRA}V9q&",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1250,10 +1263,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "MzY0i/5j@4",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "r@emjadXzr",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1264,10 +1280,13 @@
                 "",
                 "",
                 "Churfirsten",
-                "Walensee"
+                "Walensee",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "KvV3_<za+^",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "A`;|uyH}wu",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1278,10 +1297,13 @@
                 "",
                 "",
                 "",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "b(}U9WFiEw",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "c_(0zR6w~n",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1292,10 +1314,13 @@
                 "",
                 "",
                 "Voralpen",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "ikumP8TO-C",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "P)63[tk8#E",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1306,10 +1331,13 @@
                 "",
                 "",
                 "Alvierkette",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "f%q3ebDH<A",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "eH[*MiSa@9",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1320,10 +1348,13 @@
                 "",
                 "",
                 "Glärnisch",
-                "Schwyzer Alpen"
+                "Schwyzer Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "kP<oVh>gAA",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "xdv,}97U<s",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1334,10 +1365,13 @@
                 "",
                 "",
                 "Weissmiesgruppe",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "tY{tOaFs,W",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Ke$,^Sv9X{",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1348,10 +1382,30 @@
                 "",
                 "",
                 "Alvierkette",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "A`a~ZWr5I/",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ITjC4y:XtD",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Grand Combin",
+                "4314",
+                "",
+                "",
+                "",
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "xPM3P92$5V",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1362,10 +1416,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "I$OSPE^$A>",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Nm+#~JEsZw",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1376,10 +1433,13 @@
                 "",
                 "",
                 "Signinagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "C~JCvzLg]S",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "s1WUJX*fT7",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1390,10 +1450,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "hYIic8flE$",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "m{}Om$!(<1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1404,10 +1467,13 @@
                 "",
                 "",
                 "",
-                "Mittelland"
+                "Mittelland",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "c[6=aQI|jP",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "mG0x:*RK_U",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1418,10 +1484,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "taIa0dO/XL",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "D%!#!kW)CQ",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1432,10 +1501,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "A>C8]/[>(y",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Il&R$nYCQF",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1446,10 +1518,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "h0yF1~I7w9",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "xr@du;B2I8",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1460,10 +1535,13 @@
                 "",
                 "",
                 "Churfirsten",
-                "Walensee"
+                "Walensee",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "EAv&VBD}s",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "F,vAHpv#Zr",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1474,10 +1552,13 @@
                 "",
                 "",
                 "Rigi",
-                "Schwyzer Alpen"
+                "Schwyzer Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "e5]b#P|^^W",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "sw*5BmrI]B",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1488,10 +1569,13 @@
                 "",
                 "",
                 "Hochwangkette",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "j`9kzhI2Og",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "D&w!Ubp>&H",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1502,10 +1586,13 @@
                 "",
                 "",
                 "Sunnig Stöck",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "eKIE7>Q/<P",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "h!d0b`q.>.",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1516,10 +1603,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "zvGpH4<e8>",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "O*k+<sEz.y",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1530,10 +1620,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "qRn.Z@fif}",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "yWu%6eQl{y",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1544,10 +1637,13 @@
                 "",
                 "",
                 "Urner Alpen",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "cVNG:J8x|m",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "f?G$5vDv4T",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1558,10 +1654,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Voralpen"
+                "Voralpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "zGLyL%CA?g",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "hdi19(+UDm",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1572,10 +1671,13 @@
                 "",
                 "",
                 "",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "mEL**lVHq,",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "pj(N,E^g(#",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1586,10 +1688,13 @@
                 "",
                 "",
                 "Voralpen",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "AncOiZ:i?8",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "s0#{Hq#;51",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1600,10 +1705,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "K4s9#L_)ZX",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ld<c#%C3zB",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1614,10 +1722,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "rxgVEAwzWp",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "HR3Nx_1&s5",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1628,10 +1739,30 @@
                 "",
                 "",
                 "",
-                "Bündner Alpen"
+                "Bündner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "x[CN!G(9k)",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "MUK14QcEyK",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jungfrau",
+                "4158",
+                "",
+                "",
+                "Jungfrau",
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "OoeI@xuEWJ",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1642,10 +1773,13 @@
                 "",
                 "",
                 "",
-                "Mittelland"
+                "Mittelland",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "c047,!h_),",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "qX0-AwJ3BE",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1656,10 +1790,13 @@
                 "",
                 "",
                 "Voralpen",
-                "Ostschweiz"
+                "Ostschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "viIG)Fg@9}",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bl&Ye;52`t",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1670,10 +1807,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "iNI0oT1hkP",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "nmi&^n,OJ[",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1684,10 +1824,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "h]k7Ke?G%R",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Bhe;:`v(g=",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1698,10 +1841,13 @@
                 "",
                 "",
                 "",
-                "Mittelland"
+                "Mittelland",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "HI?G)QI;.!",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "d8C5q`09pU",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1712,10 +1858,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "pk8}<;ibOk",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "i}`q:MkA4~",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1726,10 +1875,13 @@
                 "",
                 "",
                 "Walensee",
-                "Churfirsten"
+                "Churfirsten",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "5DHOwYb`&",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "s%;zAtSYje",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1740,10 +1892,13 @@
                 "",
                 "",
                 "Saanenland",
-                "Waadt"
+                "Waadt",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "f/lVm2+%gq",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "EUZ{s7Kd3c",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1754,10 +1909,30 @@
                 "",
                 "",
                 "Walliser Alpen",
-                "Wallis/Waadt"
+                "Wallis/Waadt",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "E^u~V2_CQD",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "h5rylI//~9",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Liskamm",
+                "4527",
+                "",
+                "",
+                "Walliser Alpen",
+                "Wallis/Italien",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "OKWjEvr3!H",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1768,10 +1943,13 @@
                 "",
                 "",
                 "Monte Rosa",
-                "Wallis/Italien"
+                "Wallis/Italien",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "QG#zg,t/<2",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bXVSUzHuhw",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1782,10 +1960,30 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "JYnampKas}",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "K+(H16[2FS",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Matterhorn",
+                "4478",
+                "",
+                "",
+                "Walliser Alpen",
+                "Wallis/Italien",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "DVx)T3wLs&",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1796,10 +1994,30 @@
                 "",
                 "",
                 "",
-                "Freiburger Alpen"
+                "Freiburger Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "v,[h`B,{J~",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "b$IzE9Ke/H",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mönch",
+                "4107",
+                "",
+                "",
+                "Jungfraugebiet",
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "N0{n-ia1w/",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1810,10 +2028,13 @@
                 "",
                 "",
                 "Hochwangkette",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "vQH*?#MT:P",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "odG=RxhO.0",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1824,10 +2045,13 @@
                 "",
                 "",
                 "Tessiner Alpen",
-                "Tessin"
+                "Tessin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "G&:HH?IUjY",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "p7USh|J#)}",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1838,10 +2062,13 @@
                 "",
                 "",
                 "Tambogruppe",
-                "Tessin"
+                "Tessin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "P0.Sr&{;fv",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "u?<e3q]nQ7",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1852,10 +2079,13 @@
                 "",
                 "",
                 "Lepontinische Alpen",
-                "Wallis"
+                "Wallis",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "BaX7)yW:!f",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ifOWWM02{T",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1866,10 +2096,13 @@
                 "",
                 "",
                 "",
-                "Kanton Tessin"
+                "Kanton Tessin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "qZt-t+l(lW",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "s*<E?u.!si",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1880,10 +2113,13 @@
                 "",
                 "",
                 "",
-                "Kanton Tessin"
+                "Kanton Tessin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "h8zSs=x&$G",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Jdeh/wioW$",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1894,10 +2130,13 @@
                 "",
                 "",
                 "Tambogruppe",
-                "Kanton Tessin"
+                "Kanton Tessin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "hr<KEoa<E!",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "d@;%4Ip[Uu",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1908,10 +2147,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "i,|P{bZ-4/",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "jHdT(H|WV<",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1922,10 +2164,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "xZxXC!y(i[",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "z&%:6;{&}2",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1936,10 +2181,13 @@
                 "",
                 "",
                 "Blüemlisalpgruppe",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "rzn9JF-o9)",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "v(InBD]nuy",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1950,10 +2198,30 @@
                 "",
                 "",
                 "Mürtschenstock",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "C9g$5#N=}3",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "CT+d|4gJd5",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Grosser Mythen",
+                "1898",
+                "",
+                "",
+                "",
+                "Zentralschweiz",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "j$W&`hsnGv",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1964,10 +2232,13 @@
                 "",
                 "",
                 "Schwyzer Alpen",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "N{`9$uCx^^",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "tnpOriX<s)",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1978,10 +2249,13 @@
                 "",
                 "",
                 "Mischabelgruppe",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "C>cw2y%dT$",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "jp.w|N{I]k",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -1992,10 +2266,13 @@
                 "",
                 "",
                 "Emmentaler Alpen",
-                "Bern"
+                "Bern",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "E:]B`?a4y`",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "M03E]a2+0Q",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2006,10 +2283,13 @@
                 "",
                 "",
                 "Glärnisch",
-                "Schwyzer Alpen"
+                "Schwyzer Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "xpK70/?>Gx",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "pl{W@hf#m]",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2020,10 +2300,13 @@
                 "",
                 "",
                 "Aletsch",
-                "Wallis"
+                "Wallis",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "g;RtGZR@Df",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "D%oP!%aEZ1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2034,10 +2317,13 @@
                 "",
                 "",
                 "Glärnisch",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "j/EfTtQu}!",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "sQS5_[983N",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2048,10 +2334,13 @@
                 "",
                 "",
                 "Urner Alpen",
-                "Vierwaldstättersee"
+                "Vierwaldstättersee",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "E1H=Hvs+BH",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "w};haJIAqs",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2062,10 +2351,13 @@
                 "",
                 "",
                 "Güggisgrat",
-                "Emmentaler Alpen"
+                "Emmentaler Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "GZ@?&Eogb:",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "E+U&6ecfV?",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2076,10 +2368,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "c18dl(Cfym",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "O0KNe1ETMU",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2090,10 +2385,13 @@
                 "",
                 "",
                 "",
-                "Unterwaldner Voralpen"
+                "Unterwaldner Voralpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "i.}BG<5f,4",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "klw2b>[dO3",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2104,10 +2402,13 @@
                 "",
                 "",
                 "Urner Alpen",
-                "Vierwaldstättersee"
+                "Vierwaldstättersee",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "EA-BA::-T<",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "F),N;c]J~F",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2118,10 +2419,13 @@
                 "",
                 "",
                 "Glarner Alpen",
-                "Uri / Graubünden"
+                "Uri / Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "veu}W!^_t-",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "nk^/CA}08Z",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2132,10 +2436,13 @@
                 "",
                 "",
                 "Signinagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "kL|P|TrI5=",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "GK(J7JMi@/",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2146,10 +2453,13 @@
                 "",
                 "",
                 "Blüemlisalpgruppe",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "vrDjE4?]1S",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "g6ls]6.7/P",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2160,10 +2470,13 @@
                 "",
                 "",
                 "Sardona Tektonik-Arena",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "F<4O>Yq91K",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Ho=.MQVE%m",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2174,10 +2487,13 @@
                 "",
                 "",
                 "Aletsch",
-                "Wallis"
+                "Wallis",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "tae,>qZM/m",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "LosY.;VmUP",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2188,10 +2504,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Bh>*}jT:<",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "G_)gRZv??x",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2202,10 +2521,13 @@
                 "",
                 "",
                 "Monte Rosa",
-                "Wallis/Italien"
+                "Wallis/Italien",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "tOgvc}Mqj)",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "vGFj)YAkY]",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2216,10 +2538,30 @@
                 "",
                 "",
                 "Pfannenstiel",
-                "Mittelland"
+                "Mittelland",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "wx5T]85Z?-",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bSJb?{B#-J",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pilatus",
+                "2128",
+                "",
+                "",
+                "Pilatus",
+                "Emmentaler Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "t{i<i^{?J>",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2230,10 +2572,13 @@
                 "",
                 "",
                 "",
-                "Bündner Alpen"
+                "Bündner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "xLXssIbX_Z",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "id}Mto6f?u",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2244,10 +2589,13 @@
                 "",
                 "",
                 "Oberhalbstein",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "s~7.:;6{a9",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rDm`kk*8/`",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2258,10 +2606,30 @@
                 "",
                 "",
                 "Berninagruppe",
-                "Engadin"
+                "Engadin",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "wbUr5!?|6^",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "dK`75cp.SW",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Piz Bernina",
+                "4049",
+                "",
+                "",
+                "Berninagruppe",
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "l5u%.AQA5R",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2272,10 +2640,13 @@
                 "",
                 "",
                 "Adula-Alpen",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "PL~$6N[/_6",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "b(E;qJxKM2",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2286,10 +2657,13 @@
                 "",
                 "",
                 "Silvretta",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "C&Bhux7sHh",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "EiOu9`Ov<]",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2300,10 +2674,13 @@
                 "",
                 "",
                 "Vorderrhein",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Fy43Ub.K[t",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "HwRk-~[@*u",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2314,10 +2691,13 @@
                 "",
                 "",
                 "Oberhalbstein",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "C*3n-~<c$7",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rf/z>)*v5q",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2328,10 +2708,13 @@
                 "",
                 "",
                 "Val Müstair",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "v/quEfeoe;",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "u0Nl>)g=b<",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2342,10 +2725,13 @@
                 "",
                 "",
                 "Sardona Tektonik-Arena",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "jZ}AAOH[yg",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "hX|_(aGP[s",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2356,10 +2742,13 @@
                 "",
                 "",
                 "Albulatal",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "E_6p}Gsgy[",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "jgkY!87/m0",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2370,10 +2759,13 @@
                 "",
                 "",
                 "Signinagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "J&E4f<oeZ[",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "fYpT@,p4p:",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2384,10 +2776,13 @@
                 "",
                 "",
                 "Oberhalbstein",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Lb4U*^qs,E",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "D{Rx*OD$n,",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2398,10 +2793,13 @@
                 "",
                 "",
                 "Adula",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "NWi7%.!h[t",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Gr<m=Z.DO.",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2412,10 +2810,13 @@
                 "",
                 "",
                 "Adula",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "L/6tg53#h7",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "w}v9XxT,+%",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2426,10 +2827,13 @@
                 "",
                 "",
                 "Berninagruppe",
-                "Engadin"
+                "Engadin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "l%6=a~{<nY",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "b6lmA(1!^v",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2440,10 +2844,13 @@
                 "",
                 "",
                 "Oberhalbstein",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "doA[Kv,R7e",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "C3jG//@HLD",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2454,10 +2861,13 @@
                 "",
                 "",
                 "Mundaun-Kette",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "e&g/i2yTs9",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "C##bAIL$Kp",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2468,10 +2878,30 @@
                 "",
                 "",
                 "Nationalpark",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "ieb/j/oq~E",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "H,xSno:T`}",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Piz Palü",
+                "3900",
+                "",
+                "",
+                "Berninagruppe",
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
+            ],
+            "guid": "p?&V|~XF])",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2482,10 +2912,13 @@
                 "",
                 "",
                 "Bernina-Alpen",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Jy,!QI.,eZ",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "k,ZUL{N,&>",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2496,10 +2929,13 @@
                 "",
                 "",
                 "Signinagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "MR/i3c{6*(",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rxvg1~*s/?",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2510,10 +2946,13 @@
                 "",
                 "",
                 "Berninagruppe",
-                "Engadin"
+                "Engadin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "B|{1Ys5+yn",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "sGPeTWG4<P",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2524,10 +2963,13 @@
                 "",
                 "",
                 "Sardona Tektonik-Arena",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "n_-h09b7I`",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "s0GhJoVd`*",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2538,10 +2980,13 @@
                 "",
                 "",
                 "Sardona Tektonik-Arena",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "CaN[)H(cwV",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "v!v}n!ICQ1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2552,10 +2997,13 @@
                 "",
                 "",
                 "Mundaun-Kette",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "E]]z4%VNa",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "vkH4M7pZGw",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2566,10 +3014,13 @@
                 "",
                 "",
                 "Signinagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "Pt#[ph$HCQ",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "mol|bR>L?E",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2580,10 +3031,13 @@
                 "",
                 "",
                 "Engadin",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "GgghNC*]Ye",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "K-alpmq*h]",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2594,10 +3048,13 @@
                 "",
                 "",
                 "Splügener Kalkberge",
-                "Adula-Alpen"
+                "Adula-Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "l#=8GOJx.U",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "wn;MZ`|qOr",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2608,10 +3065,13 @@
                 "",
                 "",
                 "Greina",
-                "Adula-Alpen"
+                "Adula-Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Pr!yZJ(2j*",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bD3a)X[1W{",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2622,10 +3082,13 @@
                 "",
                 "",
                 "Oberhalbstein",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "LAZe:btM9h",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ssx]0m$1+o",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2636,10 +3099,13 @@
                 "",
                 "",
                 "Splügener Kalkberge",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "vmOTyez>D@",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "l;fg17+&%!",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2650,10 +3116,13 @@
                 "",
                 "",
                 "",
-                "Adula-Alpen"
+                "Adula-Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "r1l9foI(V-",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bVZH)R-@TS",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2664,10 +3133,13 @@
                 "",
                 "",
                 "Berninagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "g!M)jIy*<v",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "z;n8Zv}lmO",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2678,10 +3150,13 @@
                 "",
                 "",
                 "Berninagruppe",
-                "Engadin"
+                "Engadin",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "pSpclSo]=E",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "r6]f3Sdn!U",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2692,10 +3167,13 @@
                 "",
                 "",
                 "Bondascagruppe",
-                "Bernina-Alpen"
+                "Bernina-Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "qFH54aQ$WH",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "i:x=4]b^{e",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2706,10 +3184,13 @@
                 "",
                 "",
                 "",
-                "Tessiner Alpen"
+                "Tessiner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Ppqy).1F)H",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Oz6uwMH=+w",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2720,10 +3201,13 @@
                 "",
                 "",
                 "Tambogruppe",
-                "Graubünden / Provinz Sondrio"
+                "Graubünden / Provinz Sondrio",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "H!&=ikvKM`",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "jXJVj#u@va",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2734,10 +3218,13 @@
                 "",
                 "",
                 "Walensee",
-                "Voralpen"
+                "Voralpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "gYhJa).w-I",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "wrGH$A/D43",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2748,10 +3235,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Nats~[J1-(",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "yMh(p9T,|A",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2762,10 +3252,13 @@
                 "",
                 "",
                 "Rätikon",
-                "Rätische Alpen"
+                "Rätische Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "t04%>d5y[D",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bQNAHW>[P`",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2776,10 +3269,13 @@
                 "",
                 "",
                 "",
-                "Adula-Alpen"
+                "Adula-Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "n4F6,$C*/v",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "fZ!cjEsoC-",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2790,10 +3286,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "kc$3:]QXSx",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "cC<P|.NNSR",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2804,10 +3303,13 @@
                 "",
                 "",
                 "Rigi",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "L)7_&,+iGP",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "wmWG:Shvtn",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2818,10 +3320,13 @@
                 "",
                 "",
                 "Gemmi",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "LXbost>mj0",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "NmZ`|-f(~;",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2832,10 +3337,13 @@
                 "",
                 "",
                 "",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "fm)NIEaaX`",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "LC$oqw9!>6",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2846,10 +3354,13 @@
                 "",
                 "",
                 "Weissenstein",
-                "Jura"
+                "Jura",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "o>lo>&uW5V",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "bUz~pY8lX^",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2860,10 +3371,13 @@
                 "",
                 "",
                 "",
-                "Jura"
+                "Jura",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Psh>u~r|dz",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "x>c[XWAL$H",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2874,10 +3388,30 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "kQJ)DP9xc#",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "m]W#Y8/Ij}",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Säntis",
+                "2502",
+                "",
+                "",
+                "Alpstein",
+                "Appenzeller Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "C#ddj!n`Di",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2888,10 +3422,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Appenzeller Alpen"
+                "Appenzeller Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "h^lFD;c/Fa",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "KRp~DL(#gc",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2902,10 +3439,13 @@
                 "",
                 "",
                 "Alpstein",
-                "Toggenburg"
+                "Toggenburg",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "o?Mm:6%EF1",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "G>MCT,?U_D",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2916,10 +3456,13 @@
                 "",
                 "",
                 "Schächental",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "z(3<u2:Ufb",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "LdnA^omvZt",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2930,10 +3473,13 @@
                 "",
                 "",
                 "Rätikon",
-                "Graubünden / Vorarlberg"
+                "Graubünden / Vorarlberg",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "Fl1[Se/y#?",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "zQYvS)-=e1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2944,10 +3490,13 @@
                 "",
                 "",
                 "Churfirsten",
-                "Walensee"
+                "Walensee",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "J+i?KV1IP*",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "gs,{g[G,4s",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2958,10 +3507,13 @@
                 "",
                 "",
                 "",
-                "Bündner Alpen"
+                "Bündner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "EvXG=[>08D",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "dk6?U:bl5w",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2972,10 +3524,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "AD^-doSX)/",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "twsu,crzd=",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -2986,10 +3541,13 @@
                 "",
                 "",
                 "",
-                "Tafeljura"
+                "Tafeljura",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "me:sa.ZgzC",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "NrIkh1i2Pi",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3000,10 +3558,13 @@
                 "",
                 "",
                 "Signinagruppe",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "i5A.%>B0Fi",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rLXS.0%&1/",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3014,10 +3575,30 @@
                 "",
                 "",
                 "",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "NWTCy9`!7h",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "c:7(WlUkg<",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schreckhorn",
+                "4078",
+                "",
+                "",
+                "",
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "w-N>r%TCLf",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3028,10 +3609,13 @@
                 "",
                 "",
                 "Churfirsten",
-                "Walensee"
+                "Walensee",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "o!V=5E(6(o",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "hsuB>uHd|h",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3042,10 +3626,13 @@
                 "",
                 "",
                 "Vierwaldstättersee",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "CoLM^zm^Ai",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Le<eF~^0Z9",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3056,10 +3643,13 @@
                 "",
                 "",
                 "Diemtigtal",
-                "Simmental"
+                "Simmental",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "oSXr2^1|m!",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "G*[fb@e@Xf",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3070,10 +3660,13 @@
                 "",
                 "",
                 "Alvierkette",
-                "Walensee"
+                "Walensee",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "dJuyB.?cbm",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "n~.LZ4Zf/+",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3084,10 +3677,13 @@
                 "",
                 "",
                 "",
-                "Emmentaler Alpen"
+                "Emmentaler Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "P^zRt/&0%$",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "D+dJtB9G`K",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3098,10 +3694,13 @@
                 "",
                 "",
                 "Monte Rosa",
-                "Wallis/Italien"
+                "Wallis/Italien",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "iZ=~|0?}^w",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "N,yd#WPb?c",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3112,10 +3711,13 @@
                 "",
                 "",
                 "Sigriswilergrat",
-                "Kanton Bern"
+                "Kanton Bern",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "dmc0ty;$X2",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rm$b&Tm;y_",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3126,10 +3728,13 @@
                 "",
                 "",
                 "Rätikon",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "w@nz#Y1ga>",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "ySNubo#C.1",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3140,10 +3745,13 @@
                 "",
                 "",
                 "Gotthardmassiv",
-                "Graubünden/Uri"
+                "Graubünden/Uri",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "d^v{,mMaU(",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "mH<6M(~Lf%",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3154,10 +3762,13 @@
                 "",
                 "",
                 "Walensee",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "f?d%9;pSsq",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "P,s}MBoh$/",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3168,10 +3779,13 @@
                 "",
                 "",
                 "Pizol",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "BkISigUS:*",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "p-Ak;lewCf",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3182,10 +3796,13 @@
                 "",
                 "",
                 "Urner Alpen",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "ovUdZByHiA",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "G@0w@c+XJ%",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3196,10 +3813,13 @@
                 "",
                 "",
                 "Gantrisch-Gebiet",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "hnj$=GbCy-",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "rR<A8dwshk",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3210,10 +3830,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "OOz`W.P&h#",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "PCKTGFYf;w",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3224,10 +3847,13 @@
                 "",
                 "",
                 "Calanda",
-                "Bündner Rheintal"
+                "Bündner Rheintal",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "Cw}xkU3^,;",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "A:w06t3(*Q",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3238,10 +3864,13 @@
                 "",
                 "",
                 "Mischabel-Gruppe",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "$9{[/fLP4",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "r<CP-g24L_",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3252,10 +3881,13 @@
                 "",
                 "",
                 "Oberhalbstein",
-                "Graubünden"
+                "Graubünden",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "f4Aifxc:T/",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "HlB1BW[AaS",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3266,10 +3898,13 @@
                 "",
                 "",
                 "",
-                "Zentralschweiz"
+                "Zentralschweiz",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "A1zkJwgEkg",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "gX72!aStK.",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3280,10 +3915,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "yCaKB~eEMt",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "o2s[3ai%W_",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3294,10 +3932,13 @@
                 "",
                 "",
                 "Pilatus",
-                "Vierwaldstättersee"
+                "Vierwaldstättersee",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "fs!PqU8Q}A",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "e>JRz{8qM2",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3308,10 +3949,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "wd>aYXAV<Z",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "b)Jhky<(F{",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3322,10 +3966,13 @@
                 "",
                 "",
                 "Sardona Tektonik-Arena",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "CB||_NVhFI",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "CS5:hERMo8",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3336,10 +3983,13 @@
                 "",
                 "",
                 "",
-                "Voralpen"
+                "Voralpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "bqM|x1).0H",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "KUfadV]h|=",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3350,10 +4000,13 @@
                 "",
                 "",
                 "Albiskette",
-                "Mittelland"
+                "Mittelland",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "b|Qtd4c`U@",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "vVml|%q|[L",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3364,10 +4017,13 @@
                 "",
                 "",
                 "",
-                "Freiburger Alpen"
+                "Freiburger Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "jg]{96+/<6",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "M9(?0$cMlb",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3378,10 +4034,13 @@
                 "",
                 "",
                 "Glärnisch",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "rFT:L<g!D1",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "N90>D;ALZ$",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3392,10 +4051,13 @@
                 "",
                 "",
                 "Glärnisch",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "oem3M65m*(",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "xavgidK~r(",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3406,10 +4068,30 @@
                 "",
                 "",
                 "",
-                "Monte Leone-Sankt Gotthard-Alpen"
+                "Monte Leone-Sankt Gotthard-Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "HR|0Zs>Eo-",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "k;T/iM<]y[",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Weisshorn",
+                "4505",
+                "",
+                "",
+                "",
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "p6*5g$rjpU",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3420,10 +4102,13 @@
                 "",
                 "",
                 "",
-                "Walliser Alpen"
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "dSHx<^qZ}t",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "e^nB9W}?dy",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3434,10 +4119,13 @@
                 "",
                 "",
                 "",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "AnG^<#$3$j",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "y/Rg9X9yW_",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3448,10 +4136,13 @@
                 "",
                 "",
                 "Wildhorngruppe",
+                "",
+                "Hauptgipfel",
+                "",
                 ""
             ],
-            "guid": "rcE^yF}b.e",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "s8%`_H._DU",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3462,10 +4153,13 @@
                 "",
                 "",
                 "Wildstrubel",
+                "",
+                "Hauptgipfel",
+                "",
                 ""
             ],
-            "guid": "ui?Kw>dH,7",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "nwDmQlF;qF",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3476,10 +4170,13 @@
                 "",
                 "",
                 "",
-                "Uri"
+                "Uri",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "`F{x?ouSq",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Lex{ZW_ml=",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3490,10 +4187,13 @@
                 "",
                 "",
                 "Diemtigtal",
-                "Simmental"
+                "Simmental",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "cY6N~OqE)5",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "jzVE!!&<)3",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3504,10 +4204,13 @@
                 "",
                 "",
                 "Stotzig Berg",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "QyilGLj{iQ",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "KB02`uY/ZD",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3518,10 +4221,13 @@
                 "",
                 "",
                 "",
-                "Urner Alpen"
+                "Urner Alpen",
+                "Hauptgipfel",
+                "",
+                ""
             ],
-            "guid": "dRvn5v}/Ly",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "Ah@6;)Sk,=",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3532,10 +4238,13 @@
                 "",
                 "",
                 "Blüemlisalpgruppe",
-                "Berner Alpen"
+                "Berner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "Q$&QEiR9aG",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "d[(r-q{ppE",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3546,10 +4255,30 @@
                 "",
                 "",
                 "",
-                "Graubünden"
+                "Graubünden",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "Q[YWD{Go8j",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "fJZMq0~Wqj",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zinalrothorn",
+                "4221",
+                "",
+                "",
+                "",
+                "Walliser Alpen",
+                "Hauptgipfel",
+                "",
+                ""
+            ],
+            "guid": "fZxs?Aro*?",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3560,10 +4289,13 @@
                 "",
                 "",
                 "",
-                "Glarner Alpen"
+                "Glarner Alpen",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "syIMXVT(-r",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "O=fiykiQuI",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3574,10 +4306,13 @@
                 "",
                 "",
                 "Churfirsten",
-                "Walensee"
+                "Walensee",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "m7C&gC.6.$",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "w4E.Xb8jz<",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         },
         {
@@ -3588,10 +4323,13 @@
                 "",
                 "",
                 "Monte Rosa",
-                "Wallis/Italien"
+                "Wallis/Italien",
+                "Nebengipfel",
+                "",
+                ""
             ],
-            "guid": "p6s7C{~`7v",
-            "note_model_uuid": "4497f042-397f-11eb-b591-50eb7149c36b",
+            "guid": "JI];qZRiIa",
+            "note_model_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
             "tags": []
         }
     ]
