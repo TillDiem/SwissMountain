@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#0.5 breitengrad=1011 px
+#-> 1 breitengrad = 2022px
+width1=2022
+#0.5 höhengrad=1512px
+#-> 1 höhengrad=3024px
+height1=3024
+
+#BREITENGRAD
+#start=6-596px/2022px
+#     =5.705242334322453
+startx=5.705242334322453
+
+
+#HÖHENGRAD
+#start=47.5+1159/3024
+#     =47.883267195767196
+starty=47.883267195767196
+
+
+bg=7.00
+hg=46.5
+
+pin_offset_x=90
+pin_offset_y=-245
+
+mountain_name=test
+
+getpxwidth(){
+	bg_local=$1
+	var=$(echo "($bg_local-$startx)*$width1 + $pin_offset_x" | bc )
+	printf '%.0f\n' "$var"
+}
+
+getpxheight(){
+	lg_local=$1
+	printf '%.0f\n' "$( echo "($starty-$lg_local)*$height1 + $pin_offset_y" | bc)"
+}
+
+convert -size 10230x6507 canvas:transparent pin.png -geometry +$(getpxwidth $bg)+$(getpxheight $hg) -composite ${mountain_name}.png
