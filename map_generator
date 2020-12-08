@@ -33,11 +33,15 @@ getpxheight(){
 	printf '%.0f\n' "$( echo "($starty-$lg_local)*$height1 + $pin_offset_y" | bc)"
 }
 
+rm importer
 while read -r line; do
 	mountain_name="$(echo "$line" | cut -d ' ' -f1 )"
 	hg="$( echo "$line" | cut -d ' ' -f2 )"
 	bgg="$( echo "$line" | cut -d ' ' -f3 )"
 	printf 'Creating pin for: %s\n' "$mountain_name"
-	convert -size 10230x6507 canvas:transparent pin.png -geometry +$(getpxwidth $bgg)+$(getpxheight $hg) -composite pins/${mountain_name}.png
+	convert -size 10230x6507 canvas:transparent pin.png -geometry +$(getpxwidth $bgg)+$(getpxheight $hg) -composite temp.png
+	convert temp.png -resize 3500x pins/_${mountain_name}.png
+	rm temp.png
+	printf "%s\t<img class=imageOverlay src=_%s.png>\n" "$(echo "$mountain_name" | sed 's/_/ /g')" "$mountain_name" >> importer
 done<berge_koord
 echo DONE
