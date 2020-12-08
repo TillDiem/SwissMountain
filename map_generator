@@ -6,26 +6,21 @@ width1=2022
 #0.5 höhengrad=1512px
 #-> 1 höhengrad=3024px
 height1=3024
+#height1=3030
 
 #BREITENGRAD
 #start=6-596px/2022px
 #     =5.705242334322453
 startx=5.705242334322453
 
-
 #HÖHENGRAD
 #start=47.5+1159/3024
 #     =47.883267195767196
-starty=47.883267195767196
+#starty=47.883267195767196
+starty=47.9
 
-
-bg=7.00
-hg=46.5
-
-pin_offset_x=90
-pin_offset_y=-245
-
-mountain_name=test
+pin_offset_x=-180
+pin_offset_y=-490
 
 getpxwidth(){
 	bg_local=$1
@@ -38,4 +33,11 @@ getpxheight(){
 	printf '%.0f\n' "$( echo "($starty-$lg_local)*$height1 + $pin_offset_y" | bc)"
 }
 
-convert -size 10230x6507 canvas:transparent pin.png -geometry +$(getpxwidth $bg)+$(getpxheight $hg) -composite ${mountain_name}.png
+while read -r line; do
+	mountain_name="$(echo "$line" | cut -d ' ' -f1 )"
+	hg="$( echo "$line" | cut -d ' ' -f2 )"
+	bgg="$( echo "$line" | cut -d ' ' -f3 )"
+	printf 'Creating pin for: %s\n' "$mountain_name"
+	convert -size 10230x6507 canvas:transparent pin.png -geometry +$(getpxwidth $bgg)+$(getpxheight $hg) -composite pins/${mountain_name}.png
+done<berge_koord
+echo DONE
