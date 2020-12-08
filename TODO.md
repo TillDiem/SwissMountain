@@ -5,3 +5,4 @@
 - [ ] import map files and coordinates into cards
 - [ ] extract Images from Google Images
 - [ ] add Images into Cards
+- [ ] fix AnkiDroid Version 
