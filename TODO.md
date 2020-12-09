@@ -6,4 +6,4 @@
 - [ ] extract Images from Google Images
 - [ ] add Images into Cards
 - [x] fix AnkiDroid Version
-- [ ] fix AnkiDroid Version in a better way (maybe using JS and aspect ratio of image and width of viewport)
+- [x] fix AnkiDroid Version in a better way (thank God for `object-fit`)

@@ -303,7 +303,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
-            "css": ".card {\n\tfont-family: Helvetica;\n\tfont-size: 20px;\n\ttext-align: center;\n\tcolor: black;\n\tmargin:0px;\n\tpadding-top: 20px;\n}\n\n.imageWrapper {\n\tposition: relative;\n\tpadding:0;\n\tmargin:0;\n\tmin-width: 100vw;\n}\n.imageOverlay {\n\tposition: absolute;\n\t//padding:0;\n\t//margin:0;\n\ttop: 0;\n\tleft: 0;\n\tmin-width: 100vw;\n}\n\n.android .card{\n\theight: 97vh;\n}\n.android .imageWrapper {\n\tmargin0;\n\tpadding:0;\n\tmin-width:95vw;\n\tmin-height:40vh;\n}\n\n.android .imageOverlay {\n\tmargin:0;\n\tpadding:0;\t\n\tmin-width:95vw;\n\tmin-height:40vh;\n}",
+            "css": ".card {\n\tfont-family: Helvetica;\n\tfont-size: 20px;\n\ttext-align: center;\n\tcolor: black;\n\tmargin:0px;\n\tpadding-top: 20px;\n}\n\n.imageWrapper {\n\tposition: relative;\n\tpadding:0;\n\tmargin:0;\n\tmin-width: 100vw;\n}\n.imageOverlay {\n\tposition: absolute;\n\t//padding:0;\n\t//margin:0;\n\ttop: 0;\n\tleft: 0;\n\tmin-width: 100vw;\n}\n\n.android .card{\n\theight: 97vh;\n}\n.android .imageWrapper {\n\tmargin0;\n\tpadding:0;\n\tmin-width:95vw;\n\tmin-height:40vh;\n}\n\n.android .imageOverlay {\n\tmargin:0;\n\tpadding:0;\t\n\tobject-fit: contain;\n\tmin-width:95vw;\n\tmin-height:61vw;\n}",
             "flds": [
                 {
                     "font": "Liberation Sans",
