@@ -303,7 +303,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
-            "css": ".card {\n\tfont-family: Helvetica;\n\tfont-size: 20px;\n\ttext-align: center;\n\tcolor: black;\n\tmargin:0px;\n\tpadding-top: 20px;\n}\n\n.imageWrapper {\n\tposition: relative;\n\tpadding:0;\n\tmargin:0;\n\tmin-width: 100vw;\n}\n.imageOverlay {\n\tposition: absolute;\n\t//padding:0;\n\t//margin:0;\n\ttop: 0;\n\tleft: 0;\n\tmin-width: 100vw;\n}\n\n.android .card{\n\theight: 97vh;\n}\n.android .imageWrapper {\n\tmargin0;\n\tpadding:0;\n\tmin-width:95vw;\n\tmin-height:40vh;\n}\n\n.android .imageOverlay {\n\tmargin:0;\n\tpadding:0;\t\n\tobject-fit: contain;\n\tmin-width:95vw;\n\tmin-height:61vw;\n}",
+            "css": ".card {\n\tfont-family: Helvetica;\n\tfont-size: 20px;\n\ttext-align: center;\n\tcolor: black;\n\tmargin:0px;\n\tpadding-top: 20px;\n}\n.imageWrapper {\n\tposition: relative;\n\tpadding:0;\n\tmargin:0;\n\tmin-width: 100vw;\n}\n.imageOverlay {\n\tposition: absolute;\n\t//padding:0;\n\t//margin:0;\n\ttop: 0;\n\tleft: 0;\n\tmin-width: 100vw;\n}\n.Gebirge{\n}\n.android .card{\n\theight: 97vh;\n}\n.android .imageWrapper {\n\tmargin0;\n\tpadding:0;\n\tmin-width:95vw;\n\tmin-height:40vh;\n}\n.android .imageOverlay {\n\tmargin:0;\n\tpadding:0;\t\n\tobject-fit: contain;\n\tmin-width:95vw;\n\tmin-height:61vw;\n}",
             "flds": [
                 {
                     "font": "Liberation Sans",
@@ -387,14 +387,14 @@
                     0,
                     "any",
                     [
-                        0
+                        3
                     ]
                 ],
                 [
                     1,
                     "any",
                     [
-                        3
+                        0
                     ]
                 ],
                 [
@@ -409,37 +409,37 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Höhe}}",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}, {{Höhe}}m",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "name": "Card 1",
+                    "name": "Bild",
                     "ord": 0,
-                    "qfmt": "{{Name}} - Höhe"
+                    "qfmt": "Welcher Berg ist das? \n<br>\n{{Bild}}"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}, {{Höhe}}",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=Gebirge>Gebirge: {{Gebirge}}</div>\n<br>\n\t<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "name": "Card 2",
+                    "name": "Karte",
                     "ord": 1,
-                    "qfmt": "Welcher Berg ist das ? \n<br>\n{{Bild}}"
+                    "qfmt": "Wo liegt {{Name}}?"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Gebirge}}\n<br>\n\t<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Höhe}}m",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
                     "bsize": 0,
                     "did": null,
-                    "name": "Card 3",
+                    "name": "Höhe",
                     "ord": 2,
-                    "qfmt": "Wo liegt {{Name}} ?"
+                    "qfmt": "Höhe von {{Name}}"
                 }
             ],
             "type": 0,
@@ -1013,7 +1013,7 @@
             "fields": [
                 "Chasseral",
                 "1606",
-                "<img class=imageOverlay src=_Chasseral.png>",
+                "<img class=\"imageOverlay\" src=\"_Chasseral.png\">",
                 "",
                 "",
                 "Jura",
