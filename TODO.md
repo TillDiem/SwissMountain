@@ -5,4 +5,5 @@
 - [x] import map files and coordinates into cards
 - [ ] extract Images from Google Images
 - [ ] add Images into Cards
-- [ ] fix AnkiDroid Version
+- [x] fix AnkiDroid Version
+- [ ] fix AnkiDroid Version in a better way (maybe using JS and aspect ratio of image and width of viewport)
