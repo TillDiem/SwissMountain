@@ -33,7 +33,7 @@
                     0
                 ],
                 "order": 0,
-                "perDay": 0
+                "perDay": 3
             },
             "replayq": true,
             "rev": {
@@ -42,7 +42,7 @@
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
                 "maxIvl": 36500,
-                "perDay": 0
+                "perDay": 100
             },
             "timer": 0
         }
@@ -202,7 +202,6 @@
         "_Gauschla_map.png",
         "_Gauschla_von_S%C3%BCden.jpg",
         "_Gipfel_des_Faulhorns.jpg",
-        "_Gl%C3%A4rnischfirn.jpg",
         "_Glarnisch.jpg",
         "_Glishorn-briglina.jpg",
         "_Glishorn_map.png",
@@ -652,7 +651,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}, {{Höhe}}m",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}, {{Höhe}}m\n<div>{{Gipfeltyp}}</div>\n<div>{{Gebiet}}</div>\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -660,10 +659,10 @@
                     "did": null,
                     "name": "Bild",
                     "ord": 0,
-                    "qfmt": "Welcher Berg ist das? \n<br>\n{{Bild}}"
+                    "qfmt": "Welcher Berg ist das? \n<div>{{Bild}}</div>"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div class=Gebirge>Gebirge: {{Gebirge}}</div>\n<br>\n\t<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{#Gebirge}}\n<div class=Gebirge>Gebirge: {{Gebirge}}</div>\n{{/Gebirge}}\n<div>{{Gipfeltyp}}</div>\n<div>{{Gebiet}}</div>\n<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>\n",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -674,7 +673,7 @@
                     "qfmt": "Wo liegt {{Name}}?"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Höhe}}m",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Höhe}}m\n{{#Gipfeltyp}}\n<div>Gipfeltyp:{{Gipfeltyp}}</div>\n{{/Gipfeltyp}}\n<div>{{Gebiet}}</div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
