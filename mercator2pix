@@ -1,0 +1,37 @@
+#!/bin/env ipython
+from numpy import *
+from scipy.optimize import curve_fit
+
+def convertGeoToPixel(xy, mapLonLeft, mapLonRight, mapLatBottom):
+        lat=xy[:,0]
+        lon=xy[:,1]
+        mapWidth = 10230
+        mapHeight = 6507
+
+        mapLonDelta = mapLonRight - mapLonLeft
+        #print(mapLonDelta)
+
+        mapLatBottomDegree = mapLatBottom * pi / 180
+
+        px_x = (lon -  mapLonLeft) * ( mapWidth / mapLonDelta)
+
+        worldMapWidth = ((mapWidth / mapLonDelta) * 180) / (pi)
+        mapOffsetY = (worldMapWidth / 2 * log((1 + sin(mapLatBottomDegree)) / (1 - sin(mapLatBottomDegree))))
+        px_y = mapHeight - ((worldMapWidth / 2 * log((1 + sin(lat)) / (1 - sin(lat)))) - mapOffsetY)
+        return array([px_x, px_y]).flatten()
+
+Matterhorn_coords=[45.9765738, 7.6584519]
+Matterhorn_px=[3943, 5814]
+Zuestoll_coords=[47.0763000, 8.9599000]
+Zuestoll_px=[7301, 2235]
+Bernina_coords=[46.3823661, 9.9081558]
+Bernina_px=[8631, 4532]
+
+x_data=array([ Matterhorn_coords, Zuestoll_coords,Bernina_coords])
+
+y_data=array([ Matterhorn_px, Zuestoll_px, Bernina_px])
+
+popt, pcov=curve_fit(convertGeoToPixel, x_data, y_data.flatten(), p0=[5.75, 10.75, 45.75])
+
+##$position = convertGeoToPixel(53.7, 9.95);
+#echo "x: ".$position[0]." / ".$position[1];
