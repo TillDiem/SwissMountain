@@ -49,7 +49,7 @@
     ],
     "desc": "",
     "dyn": 0,
-    "extendNew": 0,
+    "extendNew": 3,
     "extendRev": 0,
     "media_files": [
         "_Albier.jpg",
@@ -545,7 +545,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "e97ab7da-3983-11eb-9622-50eb7149c36b",
-            "css": ".card {\n\tfont-family: Helvetica;\n\tfont-size: 20px;\n\ttext-align: center;\n\tcolor: black;\n\tmargin:0px;\n\tpadding-top: 20px;\n}\n.imageWrapper {\n\tposition: relative;\n\tpadding:0;\n\tmargin:0;\n\tmin-width: 100vw;\n}\n.imageOverlay {\n\tposition: absolute;\n\t//padding:0;\n\t//margin:0;\n\ttop: 0;\n\tleft: 0;\n\tmin-width: 100vw;\n}\n.Gebirge{\n}\n.android .card{\n\theight: 97vh;\n}\n.android .imageWrapper {\n\tmargin0;\n\tpadding:0;\n\tmin-width:95vw;\n\tmin-height:40vh;\n}\n.android .imageOverlay {\n\tmargin:0;\n\tpadding:0;\t\n\tobject-fit: contain;\n\tmin-width:95vw;\n\tmin-height:61vw;\n}",
+            "css": ".card {\n\tfont-family: Helvetica;\n\tfont-size: 20px;\n\ttext-align: center;\n\tcolor: black;\n\tmargin:0px;\n\tpadding-top: 20px;\n}\n.imageWrapper {\n\tposition: relative;\n\tpadding:0;\n\tmargin:0;\n\tmin-width: 100vw;\n\tmargin-left:2vw; //ugly but better than nothing\n}\n.imageOverlay {\n\tposition: absolute;\n\t//padding:0;\n\t//margin:0;\n\ttop: 0;\n\tleft: 0;\n\tmin-width: 100vw;\n}\n.Gebirge{\n}\n.android .card{\n\theight: 97vh;\n}\n.imageWrapper {\n\tmargin0;\n\tpadding:0;\n\tmin-width:95vw;\n\tmin-height:40vh;\n}\n.imageOverlay {\n\tmargin:0;\n\tpadding:0;\t\n\tobject-fit: contain;\n\tmin-width:95vw;\n\tmin-height:61vw;\n}",
             "flds": [
                 {
                     "font": "Liberation Sans",
@@ -636,7 +636,7 @@
                     1,
                     "any",
                     [
-                        0
+                        2
                     ]
                 ],
                 [
@@ -651,7 +651,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Name}}, {{Höhe}}m\n<div>{{Gipfeltyp}}</div>\n<div>{{Gebiet}}</div>\n",
+                    "afmt": "{{Name}}, {{Höhe}}m\n<div>{{Gipfeltyp}}</div>\n<div>{{Gebiet}}</div>\n{{Bild}}",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -659,10 +659,10 @@
                     "did": null,
                     "name": "Bild",
                     "ord": 0,
-                    "qfmt": "Welcher Berg ist das? \n<div>{{Bild}}</div>"
+                    "qfmt": "<div>{{Bild}}</div>"
                 },
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{#Gebirge}}\n<div class=Gebirge>Gebirge: {{Gebirge}}</div>\n{{/Gebirge}}\n<div>{{Gipfeltyp}}</div>\n<div>{{Gebiet}}</div>\n<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>\n",
+                    "afmt": "{{Name}}\n{{#Gebirge}}\n<div class=Gebirge>Gebirge: {{Gebirge}}</div>\n{{/Gebirge}}\n<div>{{Gipfeltyp}}</div>\n<div>{{Gebiet}}</div>\n<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -670,7 +670,7 @@
                     "did": null,
                     "name": "Karte",
                     "ord": 1,
-                    "qfmt": "Wo liegt {{Name}}?"
+                    "qfmt": "<div class=imageWrapper>\n\t\t<div class=imageOverlay>\n\t\t<img width=100% class=imageOverlay src=_schweiz.jpg>\n\t\t{{Karte}}\n\t</div>\n</div>\n"
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Höhe}}m\n{{#Gipfeltyp}}\n<div>Gipfeltyp:{{Gipfeltyp}}</div>\n{{/Gipfeltyp}}\n<div>{{Gebiet}}</div>",
