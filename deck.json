@@ -9,6 +9,7 @@
             "autoplay": true,
             "crowdanki_uuid": "e979dd2e-3983-11eb-9622-50eb7149c36b",
             "dyn": false,
+            "interdayLearningMix": 0,
             "lapse": {
                 "delays": [
                     10.0
@@ -35,6 +36,10 @@
                 "order": 0,
                 "perDay": 3
             },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
             "replayq": true,
             "rev": {
                 "bury": false,
@@ -44,6 +49,7 @@
                 "maxIvl": 36500,
                 "perDay": 100
             },
+            "reviewOrder": 0,
             "timer": 0
         }
     ],
@@ -98,8 +104,8 @@
         "_Bifertenstock_map.png",
         "_Bluemi.jpg",
         "_Blüemlisalp.jpg",
-        "_Blüemlisalp_Rothore.jpg",
-        "_Blüemlisalp_Rothore_map.png",
+        "_Blüemlisalp_Rothorn.jpg",
+        "_Blüemlisalp_Rothorn_map.png",
         "_Blüemlisalp_map.png",
         "_Born.jpg",
         "_Born_map.png",
@@ -1015,9 +1021,9 @@
         {
             "__type__": "Note",
             "fields": [
-                "Blüemlisalp Rothore",
+                "Blüemlisalp Rothorn",
                 "3297",
-                "<img class=imageOverlay src=_Blüemlisalp_Rothore_map.png>",
+                "<img class=imageOverlay src=_Blüemlisalp_Rothorn_map.png>",
                 "<img class=\"MountainImage\" src=\"_Bluemi.jpg\">",
                 "Blüemlisalpgruppe",
                 "Berner Alpen",
@@ -2922,7 +2928,7 @@
                 "Oeschinenhorn",
                 "3297",
                 "<img class=imageOverlay src=_Oeschinenhorn_map.png>",
-                "<img class=MountainImage src=_Blüemlisalp_Rothore.jpg>",
+                "<img class=MountainImage src=_Blüemlisalp_Rothorn.jpg>",
                 "Blüemlisalpgruppe",
                 "Berner Alpen",
                 "Nebengipfel",
